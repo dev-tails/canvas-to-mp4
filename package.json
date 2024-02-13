@@ -1,0 +1,16 @@
+{
+  "name": "canvas-to-mp4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server public",
+    "build": "esbuild src/index.ts --bundle --outfile=public/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.20.0",
+    "mp4-muxer": "^3.0.5"
+  }
+}
